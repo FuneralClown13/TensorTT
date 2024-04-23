@@ -1,0 +1,6 @@
+from .sbis.main_page_locators import SbisMainPageLocators
+from .sbis.download_page_locators import SbisDownloadPageLocators
+from .sbis.contacts_page_locators import SbisContactsPageLocators
+
+from .tensor.main_page_locators import TensorMainPageLocators
+from .tensor.about_page_locators import TensorAboutPageLocators
