@@ -13,6 +13,9 @@ class SbisDownloadPage(BasePage):
 
     @BasePage.stale_element_reference_exception_handler
     def go_to_plugin_section(self):
+        """
+        Выбор СБИС Плагин в меню, проверка по url
+        """
         logger.info('wait loading page')
         while 'tab=ereport' not in self.browser.current_url:
             continue
@@ -21,9 +24,11 @@ class SbisDownloadPage(BasePage):
         plugin.click()
         logger.info(f'current_url: {self.browser.current_url}')
         assert 'tab=plugin' in self.browser.current_url, self.browser.current_url
-        # assert 'tab=plugin' in self.browser.current_url
 
     def remove_files(self):
+        """
+        Функция для очистки директории после теста
+        """
         files = self.get_files()
         for file in files:
             os.remove(file)
@@ -31,6 +36,10 @@ class SbisDownloadPage(BasePage):
 
     @staticmethod
     def get_files() -> list:
+        """
+        Получить список файлов
+        :return: список файлов
+        """
         path = Config.download_dir_path
         files = [join(path, file) for file in listdir(path) if isfile(join(path, file))]
         files.sort(key=lambda file: os.path.getmtime(file))
@@ -38,6 +47,11 @@ class SbisDownloadPage(BasePage):
 
     @BasePage.stale_element_reference_exception_handler
     def download_plugin(self, remove_files=False):
+        """
+        Скачивание файла, проверка, что файл скачан
+
+        :param remove_files: True, если нужно удалить файл после теста
+        """
         files = self.get_files()
         logger.info('downloading file')
         download_file = self.browser.find_element(*SbisDownloadPageLocators.file_link)
@@ -45,12 +59,17 @@ class SbisDownloadPage(BasePage):
 
         newest_file = [file for file in self.get_files() if file not in files]
         logger.info(f'file: {newest_file}')
-        assert newest_file
+        assert newest_file, 'Файл не скачан'
         if remove_files:
             self.remove_files()
 
     @BasePage.stale_element_reference_exception_handler
     def comparing_file_sizes(self, remove_files=False):
+        """
+        Проверка размера файла
+
+        :param remove_files: True, если нужно удалить файл после теста
+        """
         self.download_plugin()
 
         file_info = self.browser.find_element(*SbisDownloadPageLocators.file_link)
@@ -62,6 +81,6 @@ class SbisDownloadPage(BasePage):
         newest_file_size = str(round(newest_file_size / 1024 / 1024, 2))
         logger.info(f'file size: {newest_file_size}')
 
-        assert newest_file_size in file_info_size, f'{newest_file_size} != {file_info_size}'
+        assert newest_file_size in file_info_size, f'Размер файла не совпадает: {newest_file_size}, а не {file_info_size}'
         if remove_files:
             self.remove_files()

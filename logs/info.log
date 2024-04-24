@@ -1,0 +1,155 @@
+2024-04-24T23:46:51.404338+0200 INFO open: https://sbis.ru/
+2024-04-24T23:46:53.890601+0200 INFO current_url: https://sbis.ru/contacts/39-kaliningradskaya-oblast?tab=clients
+2024-04-24T23:47:05.053760+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:47:05.053760+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:47:06.194362+0200 INFO preload_overlay: 51 skips
+2024-04-24T23:47:06.194362+0200 INFO preload_overlay: 51 skips
+2024-04-24T23:47:07.431310+0200 INFO current_url: https://tensor.ru/
+2024-04-24T23:47:07.431310+0200 INFO current_url: https://tensor.ru/
+2024-04-24T23:47:18.616400+0200 INFO open: https://tensor.ru/
+2024-04-24T23:47:18.616400+0200 INFO open: https://tensor.ru/
+2024-04-24T23:47:18.616400+0200 INFO open: https://tensor.ru/
+2024-04-24T23:47:31.653787+0200 INFO open: https://tensor.ru/
+2024-04-24T23:47:31.653787+0200 INFO open: https://tensor.ru/
+2024-04-24T23:47:31.653787+0200 INFO open: https://tensor.ru/
+2024-04-24T23:47:31.653787+0200 INFO open: https://tensor.ru/
+2024-04-24T23:47:32.623944+0200 INFO preload_overlay: 33 skips
+2024-04-24T23:47:32.623944+0200 INFO preload_overlay: 33 skips
+2024-04-24T23:47:32.623944+0200 INFO preload_overlay: 33 skips
+2024-04-24T23:47:32.623944+0200 INFO preload_overlay: 33 skips
+2024-04-24T23:47:45.870335+0200 INFO open: https://tensor.ru/about
+2024-04-24T23:47:45.870335+0200 INFO open: https://tensor.ru/about
+2024-04-24T23:47:45.870335+0200 INFO open: https://tensor.ru/about
+2024-04-24T23:47:45.870335+0200 INFO open: https://tensor.ru/about
+2024-04-24T23:47:45.870335+0200 INFO open: https://tensor.ru/about
+2024-04-24T23:48:08.138462+0200 INFO open: https://sbis.ru/
+2024-04-24T23:48:09.356952+0200 INFO preload_overlay: 30 skips
+2024-04-24T23:48:09.908689+0200 INFO current_url: https://sbis.ru/contacts
+2024-04-24T23:48:21.104321+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:21.104321+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:22.710378+0200 INFO check region: Калининградская обл.
+2024-04-24T23:48:22.710378+0200 INFO check region: Калининградская обл.
+2024-04-24T23:48:33.837613+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:33.837613+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:33.837613+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:35.092468+0200 INFO partner_list is present
+2024-04-24T23:48:35.092468+0200 INFO partner_list is present
+2024-04-24T23:48:35.092468+0200 INFO partner_list is present
+2024-04-24T23:48:46.621166+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:46.621166+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:46.621166+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:46.621166+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:47.737852+0200 INFO preload_overlay: 41 skips
+2024-04-24T23:48:47.737852+0200 INFO preload_overlay: 41 skips
+2024-04-24T23:48:47.737852+0200 INFO preload_overlay: 41 skips
+2024-04-24T23:48:47.737852+0200 INFO preload_overlay: 41 skips
+2024-04-24T23:48:47.739852+0200 INFO old region: https://sbis.ru/contacts/
+2024-04-24T23:48:47.739852+0200 INFO old region: https://sbis.ru/contacts/
+2024-04-24T23:48:47.739852+0200 INFO old region: https://sbis.ru/contacts/
+2024-04-24T23:48:47.739852+0200 INFO old region: https://sbis.ru/contacts/
+2024-04-24T23:48:47.986472+0200 INFO change region: Камчатский край
+2024-04-24T23:48:47.986472+0200 INFO change region: Камчатский край
+2024-04-24T23:48:47.986472+0200 INFO change region: Камчатский край
+2024-04-24T23:48:47.986472+0200 INFO change region: Камчатский край
+2024-04-24T23:48:48.812311+0200 INFO new_region: https://sbis.ru/contacts/41-kamchatskij-kraj?tab=clients
+2024-04-24T23:48:48.812311+0200 INFO new_region: https://sbis.ru/contacts/41-kamchatskij-kraj?tab=clients
+2024-04-24T23:48:48.812311+0200 INFO new_region: https://sbis.ru/contacts/41-kamchatskij-kraj?tab=clients
+2024-04-24T23:48:48.812311+0200 INFO new_region: https://sbis.ru/contacts/41-kamchatskij-kraj?tab=clients
+2024-04-24T23:48:59.962189+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:59.962189+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:59.962189+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:59.962189+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:48:59.962189+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:49:01.593868+0200 INFO old_contact_list: ['СБИС - Калининград', 'Электронная подпись', 'Гарант-Сервис', 'ИП Маслова И.Г. ', 'ИП Павлов А.Ю.', 'АНТ-Калининград', 'Галактика-Калининград', 'ООО "МАКСЭЛЕКТРО"', 'ИП Куликов С.В.']
+2024-04-24T23:49:01.593868+0200 INFO old_contact_list: ['СБИС - Калининград', 'Электронная подпись', 'Гарант-Сервис', 'ИП Маслова И.Г. ', 'ИП Павлов А.Ю.', 'АНТ-Калининград', 'Галактика-Калининград', 'ООО "МАКСЭЛЕКТРО"', 'ИП Куликов С.В.']
+2024-04-24T23:49:01.593868+0200 INFO old_contact_list: ['СБИС - Калининград', 'Электронная подпись', 'Гарант-Сервис', 'ИП Маслова И.Г. ', 'ИП Павлов А.Ю.', 'АНТ-Калининград', 'Галактика-Калининград', 'ООО "МАКСЭЛЕКТРО"', 'ИП Куликов С.В.']
+2024-04-24T23:49:01.593868+0200 INFO old_contact_list: ['СБИС - Калининград', 'Электронная подпись', 'Гарант-Сервис', 'ИП Маслова И.Г. ', 'ИП Павлов А.Ю.', 'АНТ-Калининград', 'Галактика-Калининград', 'ООО "МАКСЭЛЕКТРО"', 'ИП Куликов С.В.']
+2024-04-24T23:49:01.593868+0200 INFO old_contact_list: ['СБИС - Калининград', 'Электронная подпись', 'Гарант-Сервис', 'ИП Маслова И.Г. ', 'ИП Павлов А.Ю.', 'АНТ-Калининград', 'Галактика-Калининград', 'ООО "МАКСЭЛЕКТРО"', 'ИП Куликов С.В.']
+2024-04-24T23:49:01.818233+0200 INFO change region: Камчатский край
+2024-04-24T23:49:01.818233+0200 INFO change region: Камчатский край
+2024-04-24T23:49:01.818233+0200 INFO change region: Камчатский край
+2024-04-24T23:49:01.818233+0200 INFO change region: Камчатский край
+2024-04-24T23:49:01.818233+0200 INFO change region: Камчатский край
+2024-04-24T23:49:02.557239+0200 INFO new_contact_list: ['СБИС - Камчатка']
+2024-04-24T23:49:02.557239+0200 INFO new_contact_list: ['СБИС - Камчатка']
+2024-04-24T23:49:02.557239+0200 INFO new_contact_list: ['СБИС - Камчатка']
+2024-04-24T23:49:02.557239+0200 INFO new_contact_list: ['СБИС - Камчатка']
+2024-04-24T23:49:02.557239+0200 INFO new_contact_list: ['СБИС - Камчатка']
+2024-04-24T23:49:13.740248+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:49:13.740248+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:49:13.740248+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:49:13.740248+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:49:13.740248+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:49:13.740248+0200 INFO open: https://sbis.ru/contacts/
+2024-04-24T23:49:14.921301+0200 INFO old_title: СБИС Контакты — Калининградская область
+2024-04-24T23:49:14.921301+0200 INFO old_title: СБИС Контакты — Калининградская область
+2024-04-24T23:49:14.921301+0200 INFO old_title: СБИС Контакты — Калининградская область
+2024-04-24T23:49:14.921301+0200 INFO old_title: СБИС Контакты — Калининградская область
+2024-04-24T23:49:14.921301+0200 INFO old_title: СБИС Контакты — Калининградская область
+2024-04-24T23:49:14.921301+0200 INFO old_title: СБИС Контакты — Калининградская область
+2024-04-24T23:49:15.162400+0200 INFO change region: Камчатский край
+2024-04-24T23:49:15.162400+0200 INFO change region: Камчатский край
+2024-04-24T23:49:15.162400+0200 INFO change region: Камчатский край
+2024-04-24T23:49:15.162400+0200 INFO change region: Камчатский край
+2024-04-24T23:49:15.162400+0200 INFO change region: Камчатский край
+2024-04-24T23:49:15.162400+0200 INFO change region: Камчатский край
+2024-04-24T23:49:15.884398+0200 INFO new_title: СБИС Контакты — Камчатский край
+2024-04-24T23:49:15.884398+0200 INFO new_title: СБИС Контакты — Камчатский край
+2024-04-24T23:49:15.884398+0200 INFO new_title: СБИС Контакты — Камчатский край
+2024-04-24T23:49:15.884398+0200 INFO new_title: СБИС Контакты — Камчатский край
+2024-04-24T23:49:15.884398+0200 INFO new_title: СБИС Контакты — Камчатский край
+2024-04-24T23:49:15.884398+0200 INFO new_title: СБИС Контакты — Камчатский край
+2024-04-24T23:49:31.292222+0200 INFO open: https://sbis.ru/
+2024-04-24T23:49:33.715219+0200 INFO current_url: https://sbis.ru/download
+2024-04-24T23:49:45.105530+0200 INFO open: https://sbis.ru/download/
+2024-04-24T23:49:45.105530+0200 INFO open: https://sbis.ru/download/
+2024-04-24T23:49:47.952591+0200 INFO wait loading page
+2024-04-24T23:49:47.952591+0200 INFO wait loading page
+2024-04-24T23:49:48.197747+0200 INFO current_url: https://sbis.ru/download/?tab=plugin&innerTab=default
+2024-04-24T23:49:48.197747+0200 INFO current_url: https://sbis.ru/download/?tab=plugin&innerTab=default
+2024-04-24T23:49:59.348807+0200 INFO open: https://sbis.ru/download/
+2024-04-24T23:49:59.348807+0200 INFO open: https://sbis.ru/download/
+2024-04-24T23:49:59.348807+0200 INFO open: https://sbis.ru/download/
+2024-04-24T23:50:00.812273+0200 INFO wait loading page
+2024-04-24T23:50:00.812273+0200 INFO wait loading page
+2024-04-24T23:50:00.812273+0200 INFO wait loading page
+2024-04-24T23:50:01.977938+0200 INFO current_url: https://sbis.ru/download/?tab=plugin&innerTab=default
+2024-04-24T23:50:01.977938+0200 INFO current_url: https://sbis.ru/download/?tab=plugin&innerTab=default
+2024-04-24T23:50:01.977938+0200 INFO current_url: https://sbis.ru/download/?tab=plugin&innerTab=default
+2024-04-24T23:50:01.979938+0200 INFO downloading file
+2024-04-24T23:50:01.979938+0200 INFO downloading file
+2024-04-24T23:50:01.979938+0200 INFO downloading file
+2024-04-24T23:50:07.207965+0200 INFO file: ['D:\\PythonProjects\\Tensor\\downloads\\sbisplugin-setup-web.exe']
+2024-04-24T23:50:07.207965+0200 INFO file: ['D:\\PythonProjects\\Tensor\\downloads\\sbisplugin-setup-web.exe']
+2024-04-24T23:50:07.207965+0200 INFO file: ['D:\\PythonProjects\\Tensor\\downloads\\sbisplugin-setup-web.exe']
+2024-04-24T23:50:07.212701+0200 INFO remove files: remove complete
+2024-04-24T23:50:07.212701+0200 INFO remove files: remove complete
+2024-04-24T23:50:07.212701+0200 INFO remove files: remove complete
+2024-04-24T23:50:18.390516+0200 INFO open: https://sbis.ru/download/
+2024-04-24T23:50:18.390516+0200 INFO open: https://sbis.ru/download/
+2024-04-24T23:50:18.390516+0200 INFO open: https://sbis.ru/download/
+2024-04-24T23:50:18.390516+0200 INFO open: https://sbis.ru/download/
+2024-04-24T23:50:19.946123+0200 INFO wait loading page
+2024-04-24T23:50:19.946123+0200 INFO wait loading page
+2024-04-24T23:50:19.946123+0200 INFO wait loading page
+2024-04-24T23:50:19.946123+0200 INFO wait loading page
+2024-04-24T23:50:21.398725+0200 INFO current_url: https://sbis.ru/download/?tab=plugin&innerTab=default
+2024-04-24T23:50:21.398725+0200 INFO current_url: https://sbis.ru/download/?tab=plugin&innerTab=default
+2024-04-24T23:50:21.398725+0200 INFO current_url: https://sbis.ru/download/?tab=plugin&innerTab=default
+2024-04-24T23:50:21.398725+0200 INFO current_url: https://sbis.ru/download/?tab=plugin&innerTab=default
+2024-04-24T23:50:21.401724+0200 INFO downloading file
+2024-04-24T23:50:21.401724+0200 INFO downloading file
+2024-04-24T23:50:21.401724+0200 INFO downloading file
+2024-04-24T23:50:21.401724+0200 INFO downloading file
+2024-04-24T23:50:26.650750+0200 INFO file: ['D:\\PythonProjects\\Tensor\\downloads\\sbisplugin-setup-web.exe']
+2024-04-24T23:50:26.650750+0200 INFO file: ['D:\\PythonProjects\\Tensor\\downloads\\sbisplugin-setup-web.exe']
+2024-04-24T23:50:26.650750+0200 INFO file: ['D:\\PythonProjects\\Tensor\\downloads\\sbisplugin-setup-web.exe']
+2024-04-24T23:50:26.650750+0200 INFO file: ['D:\\PythonProjects\\Tensor\\downloads\\sbisplugin-setup-web.exe']
+2024-04-24T23:50:26.666237+0200 INFO file size: 7.12
+2024-04-24T23:50:26.666237+0200 INFO file size: 7.12
+2024-04-24T23:50:26.666237+0200 INFO file size: 7.12
+2024-04-24T23:50:26.666237+0200 INFO file size: 7.12
+2024-04-24T23:50:26.668230+0200 INFO remove files: remove complete
+2024-04-24T23:50:26.668230+0200 INFO remove files: remove complete
+2024-04-24T23:50:26.668230+0200 INFO remove files: remove complete
+2024-04-24T23:50:26.668230+0200 INFO remove files: remove complete

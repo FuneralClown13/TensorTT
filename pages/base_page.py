@@ -12,7 +12,12 @@ class BasePage:
         self.timeout = timeout
 
     def open(self):
-        print('')
+        """
+        Открытие страницы в браузере
+        Пропуск preload_overlay
+        Настройка ожидания
+        """
+        print('')  # нужен, чтоб логирование началось с новой строки
         logger.info(f'open: {self.url}')
         self.browser.get(self.url)
         self.skip_preload_overlay()
@@ -20,6 +25,10 @@ class BasePage:
 
     @staticmethod
     def stale_element_reference_exception_handler(f):
+        """
+        Работа с ошибкой StaleElementReferenceException.
+        Помогает избежать ложного падения теста из-за того, что страница приложения не прогрузилась до конца
+        """
         def wrapper(*args, **kwargs):
             while True:
                 try:
@@ -28,9 +37,14 @@ class BasePage:
                     logger.error('StaleElementReferenceException')
                     continue
                 break
+
         return wrapper
 
     def skip_preload_overlay(self):
+        """
+        Работа с preload_overlay.
+        Помогает избежать ложного падения теста из-за того, что страница приложения не прогрузилась до конца
+        """
         skip_counter = 0
         while self.is_element_present(*BasePageLocators.preload_overlay):
             skip_counter += 1
@@ -39,6 +53,10 @@ class BasePage:
             logger.info(f'preload_overlay: {skip_counter} skips')
 
     def is_element_present(self, how, what):
+        """
+        Поиск объекта на странице
+        :return: True, если объект найден
+        """
         try:
             self.browser.find_element(how, what)
         except NoSuchElementException:
